@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">814841221915-ogf75suhkhkecg7gt83p9codustu32fo.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://music-6a4f7.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">814841221915</string>
+    <string name="google_api_key" translatable="false">AIzaSyA-2URevHHWAVzdEry-2r2Clt6aRXXYJx0</string>
+    <string name="google_app_id" translatable="false">1:814841221915:android:17c2d5a3183e92c73cb9be</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA-2URevHHWAVzdEry-2r2Clt6aRXXYJx0</string>
+    <string name="google_storage_bucket" translatable="false">music-6a4f7.appspot.com</string>
+    <string name="project_id" translatable="false">music-6a4f7</string>
+</resources>

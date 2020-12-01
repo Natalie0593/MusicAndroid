@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\MusicAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\karpi\\.gradle\\caches\\transforms-2\\files-2.1\\2ca1da987857b1ab0f1738e37ea2182e\\mediarouter-1.1.0\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,124",
+                        "endColumns": "68,68",
+                        "endOffsets": "119,188"
+                    }
+                }
+            ]
+        }
+    ]
+}

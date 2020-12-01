@@ -1,0 +1,150 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.music"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\MusicAndroid\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\MusicAndroid\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:6:5-80
+12-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:6:22-77
+13
+14    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+15    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\9430ce16ec92c809dfdf8b52ef16f948\jetified-firebase-storage-19.2.0\AndroidManifest.xml:26:5-79
+16-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\9430ce16ec92c809dfdf8b52ef16f948\jetified-firebase-storage-19.2.0\AndroidManifest.xml:26:22-76
+17
+18    <application
+18-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:8:5-31:19
+19        android:allowBackup="true"
+19-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:9:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.3.1] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\12a6bf48d95b151f5141a87053ee8e99\core-1.3.1\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:10:9-43
+23        android:label="@string/app_name"
+23-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:11:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:12:9-54
+25        android:supportsRtl="true"
+25-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:13:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.Music" >
+27-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:14:9-43
+28        <activity android:name="com.example.music.Send_Mail" />
+28-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:15:16-54
+28-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:15:26-51
+29        <activity android:name="com.example.music.MainActivity" >
+29-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:16:9-22:20
+29-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:16:19-47
+30            <intent-filter>
+30-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:17:13-21:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:18:17-69
+31-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:18:25-66
+32
+33                <category android:name="android.intent.category.DEFAULT" />
+33-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:20:17-76
+33-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:20:27-73
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:23:9-30:20
+37            android:name="com.example.music.SplashScreen"
+37-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:23:19-47
+38            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+38-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:24:13-72
+39            <intent-filter>
+39-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:25:13-29:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:18:17-69
+40-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:18:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:28:17-77
+42-->D:\MusicAndroid\app\src\main\AndroidManifest.xml:28:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->[com.karumi:dexter:6.2.1] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\257580f6bf26a4be0f8e84eb8a31a528\jetified-dexter-6.2.1\AndroidManifest.xml:27:9-29:72
+46            android:name="com.karumi.dexter.DexterActivity"
+46-->[com.karumi:dexter:6.2.1] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\257580f6bf26a4be0f8e84eb8a31a528\jetified-dexter-6.2.1\AndroidManifest.xml:28:13-60
+47            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+47-->[com.karumi:dexter:6.2.1] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\257580f6bf26a4be0f8e84eb8a31a528\jetified-dexter-6.2.1\AndroidManifest.xml:29:13-69
+48
+49        <service android:name="com.example.jean.jcplayer.service.JcPlayerService" />
+49-->[com.github.jeancsanchez:JcPlayer:2.6.16] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\2208ba8b5c9dc7ca143a65e01314e366\jetified-JcPlayer-2.6.16\AndroidManifest.xml:18:9-85
+49-->[com.github.jeancsanchez:JcPlayer:2.6.16] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\2208ba8b5c9dc7ca143a65e01314e366\jetified-JcPlayer-2.6.16\AndroidManifest.xml:18:18-82
+50
+51        <receiver
+51-->[com.github.jeancsanchez:JcPlayer:2.6.16] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\2208ba8b5c9dc7ca143a65e01314e366\jetified-JcPlayer-2.6.16\AndroidManifest.xml:20:9-23:40
+52            android:name="com.example.jean.jcplayer.service.notification.JcPlayerNotificationReceiver"
+52-->[com.github.jeancsanchez:JcPlayer:2.6.16] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\2208ba8b5c9dc7ca143a65e01314e366\jetified-JcPlayer-2.6.16\AndroidManifest.xml:21:13-103
+53            android:enabled="true"
+53-->[com.github.jeancsanchez:JcPlayer:2.6.16] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\2208ba8b5c9dc7ca143a65e01314e366\jetified-JcPlayer-2.6.16\AndroidManifest.xml:22:13-35
+54            android:exported="false" />
+54-->[com.github.jeancsanchez:JcPlayer:2.6.16] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\2208ba8b5c9dc7ca143a65e01314e366\jetified-JcPlayer-2.6.16\AndroidManifest.xml:23:13-37
+55
+56        <service
+56-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\9430ce16ec92c809dfdf8b52ef16f948\jetified-firebase-storage-19.2.0\AndroidManifest.xml:30:9-36:19
+57            android:name="com.google.firebase.components.ComponentDiscoveryService"
+57-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\9430ce16ec92c809dfdf8b52ef16f948\jetified-firebase-storage-19.2.0\AndroidManifest.xml:31:13-84
+58            android:directBootAware="true"
+58-->[com.google.firebase:firebase-common:19.3.1] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\c600c96c6db4d2cbf19587bca20cd600\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+59            android:exported="false" >
+59-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\9430ce16ec92c809dfdf8b52ef16f948\jetified-firebase-storage-19.2.0\AndroidManifest.xml:32:13-37
+60            <meta-data
+60-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\9430ce16ec92c809dfdf8b52ef16f948\jetified-firebase-storage-19.2.0\AndroidManifest.xml:33:13-35:85
+61                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+61-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\9430ce16ec92c809dfdf8b52ef16f948\jetified-firebase-storage-19.2.0\AndroidManifest.xml:34:17-107
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\9430ce16ec92c809dfdf8b52ef16f948\jetified-firebase-storage-19.2.0\AndroidManifest.xml:35:17-82
+63            <meta-data
+63-->[com.google.firebase:firebase-database:19.5.0] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\052344eccee02b64761ee34e4d2c6b6a\jetified-firebase-database-19.5.0\AndroidManifest.xml:32:13-34:85
+64                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+64-->[com.google.firebase:firebase-database:19.5.0] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\052344eccee02b64761ee34e4d2c6b6a\jetified-firebase-database-19.5.0\AndroidManifest.xml:33:17-109
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-database:19.5.0] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\052344eccee02b64761ee34e4d2c6b6a\jetified-firebase-database-19.5.0\AndroidManifest.xml:34:17-82
+66        </service>
+67
+68        <activity
+68-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\d9faaaf26fc140f365e3b207d6db990b\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+69            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+69-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\d9faaaf26fc140f365e3b207d6db990b\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\d9faaaf26fc140f365e3b207d6db990b\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\d9faaaf26fc140f365e3b207d6db990b\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+72
+73        <provider
+73-->[com.google.firebase:firebase-common:19.3.1] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\c600c96c6db4d2cbf19587bca20cd600\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+74            android:name="com.google.firebase.provider.FirebaseInitProvider"
+74-->[com.google.firebase:firebase-common:19.3.1] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\c600c96c6db4d2cbf19587bca20cd600\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+75            android:authorities="com.example.music.firebaseinitprovider"
+75-->[com.google.firebase:firebase-common:19.3.1] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\c600c96c6db4d2cbf19587bca20cd600\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+76            android:directBootAware="true"
+76-->[com.google.firebase:firebase-common:19.3.1] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\c600c96c6db4d2cbf19587bca20cd600\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+77            android:exported="false"
+77-->[com.google.firebase:firebase-common:19.3.1] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\c600c96c6db4d2cbf19587bca20cd600\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+78            android:initOrder="100" />
+78-->[com.google.firebase:firebase-common:19.3.1] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\c600c96c6db4d2cbf19587bca20cd600\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+79
+80        <meta-data
+80-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\ce53febe539132800a46a9079cdd025f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+81            android:name="com.google.android.gms.version"
+81-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\ce53febe539132800a46a9079cdd025f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+82            android:value="@integer/google_play_services_version" />
+82-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\karpi\.gradle\caches\transforms-2\files-2.1\ce53febe539132800a46a9079cdd025f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+83    </application>
+84
+85</manifest>
